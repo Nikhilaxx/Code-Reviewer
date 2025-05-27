@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1a1a1a;
+  color: #f5f5f5;
+}
+
+main {
+  height: calc(100% - 4rem); 
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  width: 100%;
+}
+
+main .left,
+main .right {
+  flex: 1;
+  border-radius: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+main .left {
+  background-color: #0c0c0c;
+  position: relative;
+  padding: 1rem;
+  border: 1px solid #333;
+}
+
+.instructions {
+  color: #ccc;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  background-color: #121212;
+  padding: 0.75rem;
+  border-left: 4px solid #5b9df9;
+  border-radius: 5px;
+}
+
+.left .code,
+.code pre,
+.code pre code {
+  flex: 1;
+  background-color: #0c0c0c;
+  border-radius: 0.7rem;
+}
+
+main .left .review {
+  margin-top: 1rem;
+  align-self: flex-end;
+  background-color: #5b9df9;
+  color: white;
+  padding: 0.6rem 1.5rem;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 0.5rem;
+  transition: background-color 0.2s;
+}
+
+main .left .review:hover {
+  background-color: #407dd5;
+}
+
+main .right {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  padding: 1.5rem;
+  overflow-y: auto;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.right h1, .right h2, .right h3 {
+  color: #f5f5f5;
+}
+
+.right code {
+  background-color: #2d2d2d;
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+  color: #fff;
+}
+.main-header {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: bold;
+  border-bottom: 1px solid #444;
+  height: 4rem;
+}
+
+.section-header {
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #555;
+}
+
+.instructions {
+  color: #cccccc;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
