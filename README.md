@@ -63,11 +63,11 @@ GOOGLE_GEMINI_KEY=your-google-api-key
 
 ```bash
 # In one terminal (backend)
-cd server
-npm start
+cd backend
+npx nodemon
 
 # In another terminal (frontend)
-cd client
+cd frontend
 npm run dev
 ```
 
@@ -96,6 +96,4 @@ ai-code-reviewer/
 
 🔗 Powered by [Google Generative AI](https://ai.google.dev/)
 
-```
 
-```
