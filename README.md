@@ -80,8 +80,12 @@ ai-code-reviewer/
 │   ├── App.css
 │   └── ...
 ├── backend/       # Express backend
-│   ├── ai.service.js
+│   ├── services
+        ├──ai.service.js
 │   ├── routes/
+        ├──ai.routes.js
+│   ├── controllers/
+        ├──ai.controller.js
 │   ├── app.js
 │   └── ...
 └── README.md
